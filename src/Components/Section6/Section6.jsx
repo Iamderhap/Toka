@@ -10,7 +10,7 @@ const Section6 = () => {
                 <p>view all team</p>
                 <FaArrowRight />
             </div>
-            <div className='flex lg:flex flex-col justify-center items-center'>
+            <div className='flex lg:flex-row flex-col justify-center items-center'>
                 <img className='lg:w-[25%] w-[100%] ' src="/gallery-crypto-4.png" alt="" />
                 <img className='lg:w-[25%] w-[100%]' src="/gallery-crypto-2.png" alt="" />
                 <img className='lg:w-[25%] w-[100%] ' src="/gallery-crypto-1.png" alt="" />

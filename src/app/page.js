@@ -13,7 +13,7 @@ export default function Home() {
           <Story/>
           <Mission/>
           <Section5/>
-          <Beginner/>
+          {/* <Beginner/> */}
           <Team/>
           <Section6/>
           <Partnership/>

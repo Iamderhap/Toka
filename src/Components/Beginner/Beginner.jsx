@@ -3,8 +3,8 @@ import React from 'react'
 const Beginner = () => {
   return (
     <>
-        <div className='lg:flex font-bold flex items-center justify-center gap-[50px] py-[50px] text-center'>
-            {/* <div>
+        <div className='lg:flex flex-col font-bold flex items-center justify-center gap-[50px] py-[50px] text-center'>
+            <div>
                 <iframe className='rounded-[30px]' width="600"
                     height="500"
                     title="YouTube video player"
@@ -12,7 +12,7 @@ const Beginner = () => {
                     allowFullScreen
                    src="https://youtu.be/vA_j6rjsBec" frameborder="0">
                  </iframe>
-            </div> */}
+            </div>
             <div className='flex flex-col gap-[25px] bg-[#f3eafd2a] items-center'>
                  <h1 className='font-bold text-[#36BB91] '>FOR BEGINNERS</h1>
                  <h3 className='lg:text-[40px] lg:font-bold lg:w-[30vw] text-[30px] w-[70vw]'>Watch our crypto guide for beginners</h3>
