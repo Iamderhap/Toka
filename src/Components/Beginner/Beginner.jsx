@@ -5,13 +5,7 @@ const Beginner = () => {
     <>
         <div className='lg:flex flex-col font-bold flex items-center justify-center gap-[50px] py-[50px] text-center'>
             <div>
-                <iframe className='rounded-[30px]' width="600"
-                    height="500"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                   src="https://youtu.be/vA_j6rjsBec" frameborder="0">
-                 </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7mjd2Qwqgd0?si=f05yOoYhBtBYUt-a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className='flex flex-col gap-[25px] bg-[#f3eafd2a] items-center'>
                  <h1 className='font-bold text-[#36BB91] '>FOR BEGINNERS</h1>

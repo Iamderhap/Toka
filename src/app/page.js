@@ -11,12 +11,12 @@ export default function Home() {
   return (
       <>
           <Story/>
-          <Mission/>
-          <Section5/>
+          {/* <Mission/> */}
+          {/* <Section5/> */}
           {/* <Beginner/> */}
-          <Team/>
-          <Section6/>
-          <Partnership/>
+          {/* <Team/> */}
+          {/* <Section6/> */}
+          {/* <Partnership/> */}
           {/* <Footer/> */}
       </>
   );
